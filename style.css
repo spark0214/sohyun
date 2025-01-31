@@ -1,51 +1,108 @@
+* {
+  text-align: center;
+}
+
 body {
-  text-align: left;
+  font-family: "nunito sans";
 }
-
-#profileimage {
-  width: 100px;
-  border-radius: 50px;
-  float: left;
-  margin-right: 50px;
-  margin-left: 20%;
-}
-
-.username {
+.title {
   font-weight: bold;
 }
 
-* {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.container {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  margin: 10px 100px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+h2 {
+  text-align: left;
+}
+
+.container div {
+  display: inline-block;
+  margin: 5px;
+  width: 200px;
+  height: 100px;
+}
+
+.coolBule {
+  background-color: #2d5dcc;
+  color: white;
+}
+
+.pink {
+  background-color: #d957d9;
+}
+
+.mintGreen {
+  background-color: #4fe0b0;
+}
+
+.beige {
+  background-color: #efd9ca;
+}
+
+.coolBule,
+.pink,
+.mintGreen,
+.beige {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+}
+h3 {
+  text-decoration: underline;
+}
+
+.ex1 {
+  font-family: "source Code Pro";
+}
+
+.p2 {
+  font-weight: bold;
+}
+
+.p3 {
+  font-style: italic;
+}
+
+.ex2 {
+  font-family: "Nunito Sans";
+}
+
+.ex3 {
+  font-family: poppins;
+}
+
+.container h1 {
+  text-align: left;
 }
 
 li {
-  float: left;
+  text-align: left;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 5px 14px;
-  text-decoration: none;
+.container p {
+  text-align: left;
 }
 
-li a:hover {
-  background-color: rgb(133, 97, 22);
+.textStylesh1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Nunito Sans";
 }
 
-.active {
-  background-color: orange;
+.textStylesh2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Poppins;
 }
 
-oi > li > a {
-  color: black;
+.textStylesp {
+  font-weight: 400;
+  font-size: 14;
+  font-family: poppins;
 }
